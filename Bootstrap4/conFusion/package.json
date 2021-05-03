@@ -10,14 +10,14 @@
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
-},
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0",
     "node-sass": "^4.14.1",
     "onchange": "^7.1.0",
-    "parallelshell": "^3.0.2"
+    "parallelshell": "^3.0.1"
   },
   "dependencies": {
     "@popperjs/core": "^2.9.2",
